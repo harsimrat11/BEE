@@ -2,6 +2,7 @@
 
 // use abcd //database name
 
+
 db.user.insertMany([ { name: "Harley Davidson", age: 24, marks: 95, subject: "Physical Edu" }, { name: "Josh", age: 25, marks: 87, subject: "Maths" }, { name: "Karan Aujla", age: 28, marks: 91, subject: "Economics" }, { name: "Sultaan Dhillon", age: 27, marks: 95, subject: "Science" }, { name: "Tarsem Jassar", age: 20, marks: 89, subject: "History" }] )
 
 db.col.countDocuments();
